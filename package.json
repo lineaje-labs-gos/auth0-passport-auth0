@@ -23,8 +23,16 @@
     "should": "^7.1.0"
   },
   "dependencies": {
-    "axios": "^1.7.4",
+    "axios": ">=1.18.1",
     "passport-oauth": "^1.0.0",
     "passport-oauth2": "^1.6.0"
+  },
+  "overrides": {
+    "axios": ">=1.18.1",
+    "form-data": ">=4.0.6"
+  },
+  "resolutions": {
+    "axios": ">=1.18.1",
+    "form-data": ">=4.0.6"
   }
 }
