@@ -1,6 +1,6 @@
 {
   "name": "passport-auth0",
-  "version": "1.4.5",
+  "version": "1.4.5-lineaje-01",
   "description": "Auth0 platform authentication strategy for Passport.js",
   "main": "lib/index.js",
   "scripts": {
@@ -8,9 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/auth0/passport-auth0"
+    "url": "https://github.com/lineaje-labs-gos/auth0-passport-auth0"
   },
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "devDependencies": {
     "jws": "^3.2.2",
     "mocha": "^10.2.0",
